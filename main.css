@@ -1,0 +1,12 @@
+div{
+	border:solid black;
+	margin-bottom:5%;
+	padding:1%;
+	text-align: center;
+}
+span{
+	padding:1%;
+	text-align: center;
+	margin:0.5%;
+	border:solid blue;
+}
