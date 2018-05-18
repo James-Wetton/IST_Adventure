@@ -1,12 +1,12 @@
 div{
 	border:solid black;
 	margin-bottom:5%;
-	padding:1%;
+	padding:3%;
 	text-align: center;
 }
 span{
-	padding:1%;
+	padding:auto;
 	text-align: center;
-	margin:0.5%;
+	margin:auto;
 	border:solid blue;
 }
