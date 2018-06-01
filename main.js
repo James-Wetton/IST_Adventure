@@ -1,4 +1,9 @@
+function Exit(){
+	window.close();
+}
+function Change(x){
+	location.replace(x)
+}
 function Test(){
-	//location.replace("Pages/P1.html")
-	alert("Hello")
+	alert("Working")
 }

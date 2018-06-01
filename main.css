@@ -1,8 +1,10 @@
 *{
-	background-color: white;
+	background-color: black;
+	font-family: arial;
+	color: white;
 }
 div{
-	border:solid black;
+	border:solid white;
 	margin-bottom:1%;
 	padding:1%;
 	text-align: center;
