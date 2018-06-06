@@ -1,17 +1,27 @@
 *{
-	background-color: black;
+	background-color: #dcd6b6;
 	font-family: arial;
-	color: white;
+	color: black;
 }
 div{
-	border:solid white;
+	border:solid black;
+	background-color:white;
 	margin-bottom:1%;
 	padding:1%;
 	text-align: center;
+	border-radius: 12px;
+	box-shadow: 3px 5px #888888;
 }
 span{
 	padding:auto;
 	text-align: center;
 	margin:auto;
 	border:solid blue;
+}
+button{
+	background-color:black;
+	margin:2px;
+	border-radius: 12px;
+	border:solid red;
+	color:white;
 }
