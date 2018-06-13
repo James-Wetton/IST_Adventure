@@ -16,8 +16,24 @@
 	<img src="Resources/foxbreakin.jpeg" height=480px width=1000px> 
 	</div>
 	<div style="font-size: 150%">
-	 he attempts to break in, but gives up.
+	 	<p id="material" class="inline">He attempts to break in, but gives up.</p>
 	</div>
 	<script src="main.js"></script>
+	<script type="text/javascript">
+		var materialText = document.getElementById("material");
+		switch (Get("material")) {
+			case "brick":
+				materialText.textContent = "He leaves without even trying";
+				break;
+			case "wood":
+				materialText.textContent = "He attempts to break in, but gives up.";
+				break;
+			case "straw":
+				materialText.textContent = "He breaks through the straw and eats you";
+				break;
+			default:
+				materialText.textContent = materialText.textContent; //For readability
+		}
+	</script>
 </body>
 </html>

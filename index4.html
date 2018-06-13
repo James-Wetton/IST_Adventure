@@ -18,8 +18,12 @@
 	<img src="Resources/images.png" height="450"> 
 	</div>
 	<div style="font-size: 150%">
-		You can't decide on what material, so you begin building your own separate house. Do you invite the other pigs in or stay by yourself.
+		You decide on using <p id="material" class="inline">straw</p> as the material, so you begin building your own separate house. Do you invite the other pigs in or stay by yourself.
 	</div>
 	<script src="main.js"></script>
+	<script type="text/javascript">
+		var materialText = document.getElementById("material");
+		materialText.textContent = Get("material") || materialText.textContent;
+	</script>
 </body>
 </html>

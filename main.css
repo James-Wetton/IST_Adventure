@@ -25,3 +25,7 @@ button{
 	border:solid red;
 	color:white;
 }
+p.inline{
+	display: inline;
+	background-color: transparent;
+}
